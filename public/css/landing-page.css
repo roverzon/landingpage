@@ -39,6 +39,15 @@ h6 {
     background-size: cover;
 }
 
+.about-header{
+    margin:0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+    /*background: url(../img/banner-about.jpg) no-repeat center center;
+    background-size: cover;*/
+}
+
 .intro-message {
     position: relative;
     padding-top: 20%;
@@ -108,6 +117,15 @@ h6 {
     font-size: 35px;
 }
 
+.section-heading-b {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.section-description {
+    margin-bottom: 50px;
+}
+
 .section-heading-spacer {
     float: left;
     width: 200px;
@@ -166,7 +184,9 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    
+    padding-top: 50px;
+    padding-bottom: 100px;
     background-color: #f8f8f8;
 }
 
@@ -180,4 +200,56 @@ p.copyright {
 .form-control {
     border-radius: 0px;
     -webkit-appearance: none;
+}
+
+.panel { 
+    border-radius: 0px;
+}
+
+.label{
+    border-radius: 0px;
+}
+
+.breakline {
+    width: 100%; 
+    color: black; 
+    height: 1px; 
+    background-color:gray;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li p {
+    font-size: 15px;
+    margin-bottom: 2px;
+    padding-left: 15px;
+}
+
+li span {
+  position: absolute;
+};
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
 }
