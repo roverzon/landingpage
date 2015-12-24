@@ -6,14 +6,15 @@
   * Description
   */
   angular
-    .module('pandaApp')
+    .module('app.career')
     .controller('CareerController',CareerController);
 
-    CareerController.$inject = ['$stateParams','$q'];
+    CareerController.$inject = [];
 
-    function CareerController($stateParams){
+    function CareerController(){
       var vm = this; 
-      vm.careerId = $stateParams.id;
+      // vm.careerId = $stateParams.id;
+      console.log("it is career page");
     };
 
 })();

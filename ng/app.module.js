@@ -6,13 +6,10 @@
   * Description
   */
   angular.module('pandaApp', [
+    'app.core',
     'app.home',
     'app.about',
-    'app.core',
+    'app.career',
     'timer'
   ]);
 })();
-
-
-
-

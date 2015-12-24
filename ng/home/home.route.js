@@ -13,9 +13,8 @@
 
     appRun.$inject = ['routerHelper'];
 
-
     function appRun(routerHelper) {
-        routerHelper.configureState(getStates());
+        routerHelper.configureState(getStates(),'/');
     };
 
     function getStates() {

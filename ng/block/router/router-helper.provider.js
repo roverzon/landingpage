@@ -18,10 +18,10 @@
       docTitle : '成長熊貓'
     }
 
-    $locationProvider.html5Mode({
-      enabled: true,
-      requireBase: false
-    });
+    // $locationProvider.html5Mode({
+    //   enabled: true,
+    //   requireBase: false
+    // });
 
     this.$get = RouterHelper;
 
@@ -53,7 +53,7 @@
 
       function init(){
         updateDocTitle();
-      }
+      };
 
       function updateDocTitle(){
         $rootScope.$on('$stateChangeSuccess',
