@@ -16,13 +16,13 @@
           postEmail : postEmail
         };
 
-        function postEmail(mail){
-          return $http.post('/api/accounts', mail)
+        function postEmail(account){
+          return $http.post('/api/accounts', account)
                   .then(postSuccess)
                   .catch(postFailed);
 
           function postSuccess(res){
-            return console.log(res);
+            return console.log(res.data);
           };
 
           function postFailed(res){

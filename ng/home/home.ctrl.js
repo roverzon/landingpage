@@ -11,13 +11,13 @@ angular
   HomeController.$inject = ['AccountService'];
 
   function HomeController(AccountService){
-    var vm = this; 
-    vm.email = 'roverzon@gmail.com';
+    var vm = this;
+    vm.account = {};
     vm.postEmail = postEmail;
     $(".headline").hide().animate({ left:"0px", opacity:"show"}, 1500);
 
-    function postEmail(email){
-      return AccountService.postEmail(vm.email);
+    function postEmail(){
+      return AccountService.postEmail(vm.account);
     };
   };
 
