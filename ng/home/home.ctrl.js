@@ -13,12 +13,16 @@ angular
   function HomeController(AccountService){
     var vm = this;
     vm.account = {};
-    vm.postEmail = postEmail;
+    vm.submit = submit;
+    
+    
     $(".headline").hide().animate({ left:"0px", opacity:"show"}, 1500);
 
-    function postEmail(){
-      return AccountService.postEmail(vm.account);
+    function submit(){
+      return AccountService.postAccount(vm.account);
     };
+
+    
   };
 
 })();

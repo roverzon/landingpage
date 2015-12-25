@@ -13,16 +13,16 @@
 
     function AccountService($http){
         return {
-          postEmail : postEmail
+          postAccount : postAccount
         };
 
-        function postEmail(account){
+        function postAccount(account){
           return $http.post('/api/accounts', account)
                   .then(postSuccess)
                   .catch(postFailed);
 
           function postSuccess(res){
-            return console.log(res.data);
+            return res.data;
           };
 
           function postFailed(res){

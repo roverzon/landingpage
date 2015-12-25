@@ -33,7 +33,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" ng-controller="NavbarController as NavbarCtrl">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -59,7 +59,7 @@
                     </li>
                 </ul>
                 <form class="navbar-form navbar-right">
-                    <a class="btn btn-danger" ui-sref="signup">免费使用</a>
+                    <button class="btn btn-danger" ng-click="NavbarCtrl.openRegisterModal()">免费使用</button>
                 </form>
             </div>
             <!-- /.navbar-collapse -->
@@ -106,6 +106,7 @@
     <script src="/angular/angular.min.js"></script>
     <script src="/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="/angular-timer/dist/angular-timer.min.js"></script>
+    <script src="/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
 
     <script src="/app.min.js"></script>

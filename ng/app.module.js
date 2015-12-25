@@ -10,6 +10,7 @@
     'app.home',
     'app.about',
     'app.career',
+    'app.navbar',
     'timer'
   ]);
 })();

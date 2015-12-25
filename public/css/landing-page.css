@@ -253,3 +253,25 @@ input[readonly] {
   background-color: white !important;
   cursor: text !important;
 }
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+.register-header {
+    background-color: #f2f2f2;
+}
+
+.register-header h2 {
+    color:#0000cc;
+}
+
+.register-form-label {
+    font-size: 18px; 
+}
+
+.register-btn {
+    width : 150px;
+}
