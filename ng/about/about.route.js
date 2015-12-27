@@ -19,7 +19,7 @@
     function getStates() {
         return [
             {
-                state: 'about',
+                state: 'landing.about',
                 config: {
                     templateUrl: 'panda-about.html',
                     url: '/about',

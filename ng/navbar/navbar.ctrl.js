@@ -10,10 +10,12 @@
     .module('app.navbar')
     .controller('NavbarController', NavbarController);
 
-    NavbarController.$inject = ['$uibModal'];
+    NavbarController.$inject = ['$uibModal','$window','$scope'];
 
-    function NavbarController($uibModal){
+    function NavbarController($uibModal, $window,$scope){
       var vm = this; 
+      vm.scroll = false;
+      vm.text = "hello go go";
       vm.openRegisterModal = openRegisterModal; 
 
       function openRegisterModal() {
@@ -24,13 +26,20 @@
           controllerAs :'RegisterCtrl',
           size: 'md'
         });
-
-        // modalInstance.result.then(function () {
-        //   console.log("close");
-        // });
-
-
       };
+
+      $("#try").on("scrollstart",function(){
+        alert("Started scrolling!");
+      });
+
+      // angular.element($window).bind("scroll", function(e) {
+      //   $scope.$apply(function(){
+      //     vm.scroll = true;
+      //   })
+      //   console.log("start to scroll") 
+      // });
+
+
     };
 
 })();

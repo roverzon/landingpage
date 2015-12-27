@@ -275,3 +275,16 @@ input[readonly] {
 .register-btn {
     width : 150px;
 }
+
+.startScroll {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+/*.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}*/

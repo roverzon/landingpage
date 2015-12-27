@@ -7,10 +7,6 @@
   */
   angular.module('pandaApp', [
     'app.core',
-    'app.home',
-    'app.about',
-    'app.career',
-    'app.navbar',
-    'timer'
+    'app.landing'
   ]);
 })();

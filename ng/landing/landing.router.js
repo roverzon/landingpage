@@ -1,13 +1,12 @@
 (function(){
   'use strict';
-  
   /**
-  * app.career Module
+  * app.landing Module
   *
   * Description
   */
-  angular
-    .module('app.career')
+    angular
+    .module('app.landing')
     .run(appRun);
 
     appRun.$inject = ['routerHelper'];
@@ -19,14 +18,12 @@
     function getStates(){
       return [
         {
-          state: 'landing.careers',
+          state: 'landing',
           config: {
-              templateUrl: 'panda-career.html',
-              url: '/careers/:id',
-              title : '職涯'
+              abstract : true,
+              templateUrl: './common/content.html'
           }
         }
       ];
     };
-
 })();

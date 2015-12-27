@@ -22,7 +22,6 @@ angular
       return AccountService.postAccount(vm.account);
     };
 
-    
   };
 
 })();

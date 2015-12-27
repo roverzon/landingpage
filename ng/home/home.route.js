@@ -20,7 +20,7 @@
     function getStates() {
         return [
             {
-                state: 'home',
+                state: 'landing.home',
                 config: {
                     templateUrl: 'panda-home.html',
                     url: '/',
