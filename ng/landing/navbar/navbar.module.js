@@ -6,7 +6,7 @@
   * Description
   */
   angular
-    .module('app.navbar', [
+    .module('landing.navbar', [
       'ui.bootstrap',
       'app.register'
     ]);

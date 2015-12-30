@@ -6,7 +6,7 @@
 * Description
 */
 angular
-  .module('app.about')
+  .module('landing.about')
   .controller('AboutController',AboutController)
 
   AboutController.$inject = ['$rootScope'];

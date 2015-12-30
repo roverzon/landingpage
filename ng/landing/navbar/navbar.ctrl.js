@@ -7,7 +7,7 @@
   * Description
   */
   angular
-    .module('app.navbar')
+    .module('landing.navbar')
     .controller('NavbarController', NavbarController);
 
     NavbarController.$inject = ['$uibModal','$window','$scope'];

@@ -5,7 +5,7 @@
 * Description
 */
 angular
-  .module('app.home')
+  .module('landing.home')
   .controller('HomeController',HomeController)
 
   HomeController.$inject = ['AccountService'];

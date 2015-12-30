@@ -1,12 +1,12 @@
 (function(){
+  'use strict';
   /**
-  * app.panda-home Module
+  * app.about Module
   *
   * Description
   */
   angular
-    .module('app.home',[
+    .module('landing.about', [
       'app.core'
     ])
-
 })();

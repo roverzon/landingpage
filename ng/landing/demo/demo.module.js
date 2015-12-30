@@ -1,12 +1,11 @@
 (function(){
   'use strict';
+
   /**
-  * app.about Module
+  * landing.demo Module
   *
   * Description
   */
   angular
-    .module('app.about', [
-      'app.core'
-    ])
+    .module('landing.demo', []);
 })();

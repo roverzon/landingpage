@@ -7,7 +7,7 @@
   * Description
   */
   angular
-    .module('app.career')
+    .module('landing.career')
     .run(appRun);
 
     appRun.$inject = ['routerHelper'];

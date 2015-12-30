@@ -6,7 +6,7 @@
   * Description
   */
   angular
-    .module('app.career',[
+    .module('landing.career',[
       'app.core',
       'ui.router'
     ]);

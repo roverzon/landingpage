@@ -7,7 +7,7 @@
   * Description
   */
   angular
-    .module('app.about')
+    .module('landing.about')
     .run(appRun);
 
     appRun.$inject = ['routerHelper'];

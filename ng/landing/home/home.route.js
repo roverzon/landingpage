@@ -1,12 +1,12 @@
 (function(){
   'use strict';
   /**
-  * app.home Module
+  * landing.home Module
   *
   * Description
   */
   angular
-    .module('app.home')
+    .module('landing.home')
     .run(appRun);
 
     /* @ngInject */
