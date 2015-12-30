@@ -8,10 +8,11 @@
   */
   angular.module('app.landing',[
       'app.core',
+      'app.demo',
       'landing.home',
       'landing.about',
       'landing.career',
-      'landing.demo',
-      'landing.navbar'
+      'landing.navbar',
+      'landing.feature'
     ])
 })();

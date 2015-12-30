@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   /**
-  * app.about Module
+  * landing.about Module
   *
   * Description
   */

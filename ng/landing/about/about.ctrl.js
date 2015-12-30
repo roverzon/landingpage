@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   /**
-* pandaApp Module
+* landing.about Module
 *
 * Description
 */

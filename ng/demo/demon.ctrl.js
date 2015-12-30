@@ -6,7 +6,7 @@
   * Description
   */
   angular
-    .module('landing.demo')
+    .module('app.demo')
     .controller('DemoController',DemoController);
 
     DemoController.$inject = [];

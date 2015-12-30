@@ -7,6 +7,7 @@
   */
   angular.module('pandaApp', [
     'app.core',
-    'app.landing'
+    'app.landing',
+    'app.demo'
   ]);
 })();

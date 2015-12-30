@@ -6,7 +6,7 @@
   * Description
   */
   angular
-    .module('landing.demo')
+    .module('app.demo')
     .run(appRun);
 
     appRun.$inject = ['routerHelper'];
@@ -18,7 +18,7 @@
    function getStates() {
         return [
             {
-                state: 'landing.demo',
+                state: 'demo',
                 config: {
                     templateUrl: 'panda-demo.html',
                     url: '/demo',

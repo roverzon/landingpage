@@ -2,7 +2,7 @@
   'use strict';
 
   /**
-  * app.home Module
+  * landing.home Module
   *
   * Description
   */

@@ -7,5 +7,5 @@
   * Description
   */
   angular
-    .module('landing.demo', []);
+    .module('app.demo', []);
 })();

@@ -2,7 +2,7 @@
   'use strict';
 
   /**
-  * app.navbar Module
+  * landing.navbar Module
   *
   * Description
   */
