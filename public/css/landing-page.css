@@ -227,9 +227,9 @@ li p {
     padding-left: 15px;
 }
 
-li span {
+/*li span {
   position: absolute;
-};
+};*/
 
 .btn-file {
   position: relative;
@@ -281,10 +281,6 @@ input[readonly] {
     border-width: 0px;
 }
 
-/*.navbar-default .navbar-brand {
-    color: white;
+.centered-form{
+    margin-top: 150px;
 }
-
-.navbar-default .navbar-nav > li > a {
-    color: white;
-}*/

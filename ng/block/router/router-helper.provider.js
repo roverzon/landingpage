@@ -59,10 +59,10 @@
         $rootScope.$on('$stateChangeSuccess',
           function(event, toState, toParams, fromState, fromParams){
             var title = config.docTitle + ' | ' + (toState.title || '');
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
             $rootScope.title = title;
           });
-      }
-    
+      };
     };
   };
 

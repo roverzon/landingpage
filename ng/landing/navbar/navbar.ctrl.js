@@ -10,9 +10,9 @@
     .module('landing.navbar')
     .controller('NavbarController', NavbarController);
 
-    NavbarController.$inject = ['$uibModal','$window','$scope'];
+    NavbarController.$inject = ['$uibModal','$window','$scope','$translate'];
 
-    function NavbarController($uibModal, $window,$scope){
+    function NavbarController($uibModal, $window,$scope, $translate){
       var vm = this; 
       vm.scroll = false;
       vm.text = "hello go go";
@@ -27,6 +27,10 @@
           size: 'md'
         });
       };
+
+      $translate('TITLE').then(function (title) {
+          console.log(title);
+      });
 
       $("#try").on("scrollstart",function(){
         alert("Started scrolling!");

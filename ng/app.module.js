@@ -8,6 +8,8 @@
   angular.module('pandaApp', [
     'app.core',
     'app.landing',
-    'app.demo'
+    'app.demo',
+    'app.signup',
+    'pascalprecht.translate'
   ]);
 })();
