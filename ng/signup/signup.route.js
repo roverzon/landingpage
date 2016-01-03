@@ -25,7 +25,7 @@
                     url: '/signup',
                     controller : 'SignupController',
                     controllerAs : 'SignupCtrl',
-                    title : '註冊'
+                    title : '注册'
                 }
             }
         ];

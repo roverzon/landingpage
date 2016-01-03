@@ -23,7 +23,7 @@
           config: {
               templateUrl: 'panda-career.html',
               url: '/careers/:id',
-              title : '職涯'
+              title : '职缺招聘'
           }
         }
       ];

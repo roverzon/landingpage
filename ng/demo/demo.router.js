@@ -24,7 +24,7 @@
                     url: '/demo',
                     controller : 'DemoController',
                     controllerAs : 'DemoCtrl',
-                    title : '演示'
+                    title : '请求演示'
                 }
             }
         ];

@@ -26,7 +26,7 @@
                     url: '/',
                     controller : 'HomeController',
                     controllerAs : 'HomeCtrl',
-                    title : '首頁'
+                    title : '首页'
                 }
             }
         ];

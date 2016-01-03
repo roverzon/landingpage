@@ -25,7 +25,7 @@
                     url: '/about',
                     controller : 'AboutController',
                     controllerAs : 'AboutCtrl',
-                    title : '關於我們'
+                    title : '关於我们'
                 }
             }
         ];

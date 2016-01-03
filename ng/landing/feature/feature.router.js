@@ -23,7 +23,7 @@
           config: {
               templateUrl: 'panda-feature.html',
               url: '/features',
-              title : '產品特色'
+              title : '产品特色'
           }
         }
       ];
