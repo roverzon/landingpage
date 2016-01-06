@@ -15,7 +15,7 @@
   function routerHelperProvider($locationProvider,$stateProvider,$urlRouterProvider){
 
     var config = {
-      docTitle : '成長熊貓'
+      docTitle : '成长熊猫'
     }
 
     // $locationProvider.html5Mode({
