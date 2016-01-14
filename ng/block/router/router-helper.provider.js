@@ -18,10 +18,10 @@
       docTitle : 'ConvertLab'
     }
 
-    $locationProvider.html5Mode({
-      enabled: true,
-      requireBase: false
-    });
+    // $locationProvider.html5Mode({
+    //   enabled: true,
+    //   requireBase: false
+    // });
 
     this.$get = RouterHelper;
 
@@ -60,10 +60,12 @@
           function(event, toState, toParams, fromState, fromParams){
             var title = config.docTitle + ' | ' + (toState.title || '');
             document.body.scrollTop = document.documentElement.scrollTop = 0;
-            _cl_tracker.push({url:document.location.href});
-            _cl_tracker.track('open_page');
-
             $rootScope.title = title;
+
+            // tracking code
+            _cl_tracker.init();
+            _cl_tracker.push({ url: toState.url, targetName: title });
+            _cl_tracker.track('open_page');
           });
       };
     };
