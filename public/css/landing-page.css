@@ -22,7 +22,10 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 16px;
+    background-color: transparent;
+    margin-bottom: 0px;
+    border-width: 0px;
 }
 
 .lead {
@@ -31,12 +34,12 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     text-align: left;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/bg_banner.jpg) no-repeat center center;
     background-size: cover;
+    height: 665px;
 }
 
 .about-header{
@@ -44,14 +47,12 @@ h6 {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #f8f8f8;
-    /*background: url(../img/banner-about.jpg) no-repeat center center;
-    background-size: cover;*/
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 15%;
+    padding-bottom: 10%;
 }
 
 .intro-message > h1 {
@@ -112,6 +113,110 @@ h6 {
     border-bottom: 1px solid #e7e7e7;
 }
 
+.content-section-input {
+    padding: 10px 0;
+    background-color: #2b2e34;
+    color: white;
+    height: 240px;  
+}
+
+.content-section-channel {
+    background-color: #ffffff;
+    height: 750px;
+    position: relative;
+}
+
+.content-section-channel .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -303px;
+    margin-left: -585px;
+}
+
+.img {
+    margin: auto;
+}
+
+.content {
+    margin-top: 182px;
+}
+
+.content-section-tools {
+    /*padding: 200px 0;*/
+    background: url(../img/bg_tools.jpg) no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+}
+
+.content-section-tools .row{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -303px;
+    margin-left: -655px;   
+}
+
+.content-section-tools .content-1{
+    margin-top: 193px;
+    width: 600px;
+}
+
+.content-section-automation .content-c{
+    margin-top: 141px;
+    width: 600px;
+    
+}
+
+.content-section-automation {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    background: url(../img/bg_auto.jpg) no-repeat center center;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+}
+
+.content-section-automation .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -230px;
+    margin-left: -585px;
+   
+}
+
+.content-section-digital {
+    background: url(../img/bg_chart.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 750px;
+}
+
+
+.content-section-digital .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -163px;
+    margin-left: -585px;
+}
+
+.content-section-digital .content-d {
+    margin-top: 70px;
+    width: 600px;
+}
+
+.content-section-solution {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background: url(../img/bg_industry.jpg) no-repeat center center;
+    background-size: cover;
+    height: 585px;
+}
+
 .section-heading {
     margin-bottom: 30px;
     font-size: 35px;
@@ -135,8 +240,9 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/bg_marketing.jpg) no-repeat center center;
     background-size: cover;
+    height: 585px;
 }
 
 .banner h2 {
@@ -184,10 +290,8 @@ h6 {
 }
 
 footer {
-    
-    padding-top: 50px;
-    padding-bottom: 100px;
-    background-color: #f8f8f8;
+    height: 60px;
+    background-color: black;
 }
 
 p.copyright {
@@ -198,7 +302,8 @@ p.copyright {
 }
 
 .form-control {
-    border-radius: 0px;
+    border-radius: 50px;
+    height: 50px;
     -webkit-appearance: none;
 }
 
@@ -226,10 +331,6 @@ li p {
     margin-bottom: 2px;
     padding-left: 15px;
 }
-
-/*li span {
-  position: absolute;
-};*/
 
 .btn-file {
   position: relative;
@@ -293,4 +394,58 @@ input[readonly] {
     font-size: 20px;
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+.footer {
+    height: 585px;
+}
+
+.section-title {
+    color: #1ca8dd;
+    font-size: 48px;
+}
+
+.section-title-b {
+    font-size: 48px;
+    color: #232629;
+}
+
+.section-title-c{
+    font-size: 48px;
+    color: #7d6fff;
+}
+
+.section-p {
+    color: #788888;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.section-p-b {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.section-p-c{
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.section-p-d{
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.banner-title{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.sln-title {
+    color: #232629;
+    font-size: 48px;
+    text-align: center; 
 }
