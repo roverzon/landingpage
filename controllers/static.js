@@ -9,7 +9,7 @@ router.use(express.static( path.join(__dirname , '/../views')));
 router.use(express.static( path.join(__dirname , '/../assets')));
 
 router.get('/',function(req,res){
-  res.sendfile('./layout/layout.html');
+  res.sendFile( path.join(__dirname + '/../layout/layout.html'));
 });
 
 module.exports = router;

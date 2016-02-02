@@ -9,5 +9,6 @@ router.use(require('./static'));
 
 router.use('/api/accounts',require('./api/accounts'));
 router.use('/api/jobs',require('./api/jobs'));
+router.use('*',require('./api/exception'));
 
 module.exports = router;
