@@ -449,3 +449,7 @@ input[readonly] {
     font-size: 48px;
     text-align: center; 
 }
+
+input::-webkit-input-placeholder {
+    font-size: 15px;
+}
