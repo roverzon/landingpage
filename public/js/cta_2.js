@@ -6,7 +6,7 @@
         document.getElementById('clSubmitForm').classList.add('btn-warning');
         document.getElementById('formFieldSet').style.padding = 0;
         var d = document.querySelector("input[type=email]");
-        d.placeholder = '公司邮箱 =)';
+        d.placeholder = '公司邮箱';
         d.style = 'font-size:20px;';
       },
       beforeSubmit: function(){},
