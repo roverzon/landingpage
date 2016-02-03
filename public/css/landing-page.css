@@ -140,6 +140,7 @@ h6 {
 
 .content {
     margin-top: 182px;
+    width: 550px;
 }
 
 .content-section-tools {
@@ -160,12 +161,12 @@ h6 {
 
 .content-section-tools .content-1{
     margin-top: 193px;
-    width: 600px;
+    width: 550px;
 }
 
 .content-section-automation .content-c{
     margin-top: 141px;
-    width: 600px;
+    width: 550px;
     
 }
 
@@ -205,7 +206,7 @@ h6 {
 
 .content-section-digital .content-d {
     margin-top: 70px;
-    width: 600px;
+    width: 550px;
 }
 
 .content-section-solution {

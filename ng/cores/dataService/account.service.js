@@ -17,7 +17,7 @@
         };
 
         function postAccount(account){
-          return $http.post('/api/accounts', account)
+          return $http.post('http://host.51convert.cn/page/f45c9e364a0e4a82ab82dbf1049deb1b', account)
                   .then(postSuccess)
                   .catch(postFailed);
 

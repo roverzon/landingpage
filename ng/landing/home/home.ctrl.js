@@ -22,6 +22,10 @@ angular
       return AccountService.postAccount(vm.account);
     };
 
+    window.callback = function(){
+      console.log("angular callback");
+    }
+
   };
 
 })();
